@@ -1,9 +1,14 @@
 # splitdates
 input dates need to be in string format, output will be a list having pairs of dates (monthly) till target date.
+
 example-
+
 In [1]:from splitdateinmonths import *
+
 In [2]: datesplit("10/11/2018", "20/12/2019")
+
 Out[2]:
+
 [['10/11/2018', '29/11/2018'],
  ['30/11/2018', '30/12/2018'],
  ['31/12/2018', '30/1/2019'],
